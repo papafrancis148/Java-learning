@@ -58,6 +58,8 @@ public class Main {
         else{
             System.out.println("The " + car + " is NOT for sale");
         }
+
+
     }
 
 }

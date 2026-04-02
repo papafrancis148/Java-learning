@@ -4,7 +4,7 @@ public class Day2 {
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
-
+/*
         System.out.print("Enter your name: ");
         String name =scanner.nextLine();
 
@@ -28,10 +28,10 @@ public class Day2 {
         else {
             System.out.println("You need to change");
         }
-
+*/
 
         // COMMON ISSUES
-
+/*
         System.out.print("\nEnter your number: ");
         int number =scanner.nextInt();
         scanner.nextLine(); //TO AVOID THE ISSUE OF YOUR NUMBER IS 23 APPEARING ON ENTER YOUR FAVORITE SNACK
@@ -41,10 +41,9 @@ public class Day2 {
 
         System.out.println("\nYour number is " + number);
         System.out.println("Your favorite snack is  " + snack);
-
-
+*/
         // Calculate the area of a rectangle
-
+/*
         double width = 0;
         double height = 0;
         double area = 0;
@@ -60,7 +59,7 @@ public class Day2 {
         area = width * height;
 
         System.out.println("The value is: " + area + "cm\u00B2");
-
+*/
         //MAD LIBS GAME
 
         String adjective1;
@@ -71,7 +70,6 @@ public class Day2 {
 
         System.out.print("\nEnter an adjective (description): ");
         adjective1 = scanner.nextLine();
-        scanner.nextLine();
         System.out.print("Enter a noun (person or animal): ");
         noun1 = scanner.nextLine();
         System.out.print("Enter a verb (ends with ing): ");
